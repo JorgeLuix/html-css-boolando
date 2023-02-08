@@ -3,4 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    padding: 10px;
+}
+.box-1 {
+    position: relative;
+}
+.box-1 img {
+    width: 100%;
+}
+.sconto{
+    padding: 2px 3px;
+    text-align: center;
+    position: absolute;
+    bottom: 4rem;
+    left: 0px;
+}
+.sosten {
+    padding: 2px 3px;
+    text-align: center;
+    position: absolute;
+    bottom: 4rem;
+    left: 25px;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.heart {
+    position: absolute;
+    top:20px;
+    right: 20px;
+    font-size: 40px;
+    border: 1 px solid white;
+}
