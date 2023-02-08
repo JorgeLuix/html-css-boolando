@@ -30,6 +30,8 @@ header {
 ul {
     list-style: none;
     display: flex;
+    transition: all 800ms ease;
+    cursor: pointer;
     
 }
 li {
@@ -37,9 +39,16 @@ li {
     color: white;
     font-size: 20px;
 }
+li:hover {
+    text-decoration: underline;
+}
 .icons i {
     padding: 5px;
     color: white;
+    cursor: pointer;
+}
+.icons i:hover {
+    color: aquamarine;
 }
 .row {
     display: flex;
@@ -143,9 +152,16 @@ footer {
 .icon {
     padding: 15px;
     line-height: 1.8;
+    
 }
+
 .fa-brands {
     padding: 3px;
+    transition: all 600ms ease;
+    cursor: pointer;
+}
+.fa-brands:hover {
+    color: aquamarine;
 }
 .prezzo1 {
     color: orangered;
