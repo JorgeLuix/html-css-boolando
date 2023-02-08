@@ -8,6 +8,14 @@
     margin: 0 auto;
     border: 1px solid black;
 }
+header {
+    display: flex;
+    background-color: orangered;
+    justify-content: space-between;
+}
+.logo {
+    
+}
 .row {
     display: flex;
     flex-flow: row nowrap;
