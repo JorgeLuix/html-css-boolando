@@ -10,9 +10,8 @@
     border: 1px solid black;
 }
 header {
-    
     background-color: orangered;
-   
+   margin-top: 0px;
 }
 .logo {
    width: 150px;
@@ -50,9 +49,7 @@ li {
     padding: 10px;
     position: relative;
 }
-img{
-    width: 100%;
-}
+
 .box-1 {
     position: relative;
 }
@@ -70,10 +67,7 @@ img{
     z-index: 1;
     display: block;
 }
-.img3{
-    width: 400px
-    
-}
+
 .sconto{
     padding: 2px 3px;
     text-align: center;
@@ -111,4 +105,32 @@ img{
     top:20px;
     right: 0;
     margin-right: 0;
+}
+
+footer {
+    color: white;
+    background-color: rgb(40, 38, 38);
+    margin-top: 2rem;
+}
+
+
+.list .info {
+    align-content: flex-start;
+    font-size: 15px;
+}
+.footer{
+    padding: 10px 10px;
+   
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    padding: 15px;
+    line-height: 1.8;
+}
+.fa-brands {
+    padding: 3px;
 }
