@@ -153,12 +153,13 @@ footer {
 .list .info {
     align-content: flex-start;
     font-size: 15px;
+    padding: 8px;
 }
 .footer{
     padding: 10px 10px;
    
 }
-.flex {
+.flex_foot {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -187,5 +188,5 @@ footer {
     flex-flow: row wrap;
     justify-content: flex-start;
     align-content:center ;
-    padding: 20px 10px;
+    
 }
