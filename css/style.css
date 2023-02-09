@@ -4,14 +4,26 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+:root {
+    --header: #FF6900;
+--footer: #1A1A1A;
+--eco: #008000;
+--discount: #FF0000;
+}
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid black;
+    
 }
 header {
-    background-color: orangered;
-  
+    background-color: var(--header);
+    color: white;
+  box-shadow: 0 1px 3px #666 ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .logo {
@@ -34,7 +46,8 @@ ul {
     cursor: pointer;
     
 }
-li {
+li a {
+    text-decoration: none;
     padding: 5px;
     color: white;
     font-size: 20px;
@@ -57,7 +70,7 @@ li:hover {
     align-items: center;
 }
 .card {
-    padding: 10px;
+    
     position: relative;
 }
 
@@ -106,7 +119,7 @@ h3 {
     padding: 10px;
 }
 .red {
-    background-color: orangered;
+    background-color: var(--header);
    
 }
 .green {
@@ -168,4 +181,10 @@ footer {
 }
 .prezzo2{
     text-decoration:line-through;
+}
+.flex {
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content:center ;
+    padding: 20px 10px;
 }
